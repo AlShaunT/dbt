@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: stockdb
+    database: stockdb
+    schema: public
+    tables:
+      - name: ohlcv
+      - name: ohlcv_delta
